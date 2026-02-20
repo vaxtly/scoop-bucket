@@ -1,18 +1,18 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "API testing tool",
   "homepage": "https://vaxtly.github.io",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/vaxtly/app/releases/download/v0.1.2/Vaxtly-0.1.2-setup.exe",
-      "hash": "placeholder"
+      "url": "https://github.com/vaxtly/app/releases/download/v0.1.3/Vaxtly-0.1.3-setup.exe",
+      "hash": "dd682fe32f8fc98cc9d0735387abd9c642306b8dd30e2b0aca9fabe05b047af9"
     }
   },
   "installer": {
-    "script": ["Start-Process \"$dir\\$fname\" '/S' -Wait"]
+    "script": ["Start-Process \"\\\\\" '/S' -Wait"]
   },
   "uninstaller": {
-    "script": ["Start-Process \"$env:LOCALAPPDATA\\Programs\\vaxtly\\Uninstall vaxtly.exe\" '/S' -Wait"]
+    "script": ["Start-Process \"\:LOCALAPPDATA\\Programs\\vaxtly\\Uninstall vaxtly.exe\" '/S' -Wait"]
   }
 }
