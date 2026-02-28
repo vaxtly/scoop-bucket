@@ -1,12 +1,12 @@
 {
-  "version": "0.4.8",
+  "version": "0.4.9",
   "description": "API testing tool",
   "homepage": "https://vaxtly.github.io",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/vaxtly/app/releases/download/v0.4.8/Vaxtly-0.4.8-setup.exe",
-      "hash": "ed64a50607f44e904b03ec425bf1759c5a5981fae598a362a123eec632b99b17"
+      "url": "https://github.com/vaxtly/app/releases/download/v0.4.9/Vaxtly-0.4.9-setup.exe",
+      "hash": "a95cf4590d12ef62628de66ffcdbc8d82d51bd6cac790099c147fdc727eabf4e"
     }
   },
   "installer": {
