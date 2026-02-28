@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/vaxtly/app/releases/download/v0.5.1/Vaxtly-0.5.1-setup.exe",
-      "hash": "ed929229088543fa703f68aade7a7872c2e986f4407c0de7c92095e0686d28e2"
+      "hash": "05f5f6beecff0f5ae71d8a8e6470b766c51e76fa8585b05d4d487453fb554e6d"
     }
   },
   "installer": {
