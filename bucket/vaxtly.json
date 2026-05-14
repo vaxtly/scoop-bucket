@@ -10,9 +10,9 @@
     }
   },
   "installer": {
-    "script": ["Start-Process \"\\\\\" '/S' -Wait"]
+    "script": ["Start-Process \"$dir\\$fname\" '/S' -Wait"]
   },
   "uninstaller": {
-    "script": ["Start-Process \"\:LOCALAPPDATA\\Programs\\vaxtly\\Uninstall vaxtly.exe\" '/S' -Wait"]
+    "script": ["Start-Process \"$env:LOCALAPPDATA\\Programs\\vaxtly\\Uninstall vaxtly.exe\" '/S' -Wait"]
   }
 }
